@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+body {
+  background-image: url("../img/fondo2.webp");
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+/* input */
+.buscarPokemon {
+  width: 40%;
+  height: 2em;
+  margin-top: -2.8em;
+  margin-left: -6em;
+  margin-bottom: 1em;
+  border: 1px solid rgb(204, 15, 15);
+  padding: 0.3em;
+  font-size: 1em;
+  outline: none;
+  position: absolute;
+}
+
+/* botón */
+.searchPokemon {
+  background: rgba( 255, 255, 255, 0.4 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: black;
+  border: transparent;
+  font-size: 1.1em;
+  margin-top: 1em;
+  padding: 0.7em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.searchPokemon:hover {
+  background-color: rgba(9, 65, 60, 0.521);
+  color: white;
+}
+.resetPokemon {
+  background-color: transparent;
+  border: transparent;
+  text-decoration: underline;
+  color: rgba(9, 65, 60, 0.521);
+  font-size: 1em;
+}
+.resetPokemon:hover {
+  cursor: pointer;
+  color: rgb(226, 135, 15);
+}
+.box-info {
+  margin-top: 2em;
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: white;
+  width: 30%;
+  height: 30em;
+  padding: 2em;
+}
+.box-title {
+  background-color:rgb(204, 15, 15);
+  margin-top: 0px;
+  padding: 1em;
+}
