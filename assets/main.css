@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url("./img/fondo2.webp");
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.box {
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 9px );
+  -webkit-backdrop-filter: blur( 9px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 25em;
+  padding: 1.5em;
+}
+form {
+  border: 1px solid rgb(204, 15, 15);
+  background-color:rgb(204, 15, 15);
+  padding: 1em;
+  color: rgb(245, 224, 224);
+}
+
+input {
+  width: 40%; 
+  padding: 10px;
+  font-size: 1em;
+  outline: none;
+  border: transparent;
+  position: absolute; 
+  margin-top: -0.2em;
+  margin-left: -6em;
+}
+
+.img-container {
+  position: relative;
+  margin: 10px auto;
+}
+
+.poke-stats div {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 5px;
+  font-size: 18px;
+}
